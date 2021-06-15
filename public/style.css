@@ -1,0 +1,16 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+li{list-style: none;}
+a:link, a:visited{color:#333;text-decoration: none;}
+.clearfix::before, .clearfix::after{display: block;content:"";clear:both;}
+
+.menu li{float:left;width:33.333%}
+.menu li:hover{background: #ddd;}
+.menu li a{display: block;line-height: 40px;}
+
+h2{height: 300px;background:skyblue;}
+footer.footer{
+    background: #ddd;
+    text-align: center;
+    padding: 20px;
+}
+.router-link-active{background: orange;}
